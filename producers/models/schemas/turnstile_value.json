@@ -1,0 +1,10 @@
+{
+  "type": "record",
+  "name": "TurnstileEvent",
+  "fields" : [
+    {"name": "station_id", "type": "string"},             
+    {"name": "station_name", "type": ["null", "string"]},
+    {"name": "line", "type": ["null", "string"]},
+    {"name": "num_entries", "type": ["null", "int"]}
+  ]
+}
